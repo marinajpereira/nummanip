@@ -1,3 +1,3 @@
-module github.com/marinajpereira/nummanip/v2
+module github.com/marinajpereira/nummanip/v3
 
 go 1.13
