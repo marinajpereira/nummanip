@@ -4,7 +4,7 @@ import "errors"
 import "github.com/fatih/color"
 
 // returns sum of two integers
-func Add(numbers ...int) int {
+func Add(numbers ...int) (error, int) {
 	sum := 0
 
 	if len(numbers) < 2 {
